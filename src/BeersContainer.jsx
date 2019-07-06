@@ -21,7 +21,7 @@ const BeersContainer = () => {
   return (
     <div>
       {apiBeers.map(
-        ({ name, id, ...restulCelorCeErau }) => {
+        ({ name, id, abv, ...restulCelorCeErau }) => {
           console.log(name, restulCelorCeErau)
           return <p>{name}</p>
         }
