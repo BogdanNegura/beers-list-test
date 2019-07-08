@@ -1,5 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
-ReactDOM.render(<App />, document.getElementById('here-renders-my-app'));
+import Cornerstone from './component/cornerstone-app/cornerstone-app.container';
+
+
+ReactDOM.render(<Cornerstone />, document.getElementById('here-renders-my-app'));
